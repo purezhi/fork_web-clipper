@@ -1044,10 +1044,10 @@
   dependencies:
     "@types/estree" "*"
 
-"@types/tldjs@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.npm.taobao.org/@types/tldjs/download/@types/tldjs-2.3.0.tgz#bc90f5bd1df3b15123b67845abb907cb0e9096ca"
-  integrity sha1-vJD1vR3zsVEjtnhFq7kHyw6Qlso=
+"@types/tldjs@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@types/tldjs/-/tldjs-2.3.1.tgz#ad7a387356ac178d631d43f9113b782d9e1f24ed"
+  integrity sha512-BQR04zLE0ve2eNrqxXw/Qp/f6LxvNrj/4A8ZgdQi3SzbBqxFhleI7N4DS/mSjDnODrUaEGgoWg4grAZR1kVj8w==
 
 "@types/turndown@^5.0.0":
   version "5.0.0"
@@ -7404,11 +7404,6 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
-
-pako@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.npm.taobao.org/pako/download/pako-2.0.3.tgz?cache=0&sync_timestamp=1610208910632&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpako%2Fdownload%2Fpako-2.0.3.tgz#cdf475e31b678565251406de9e759196a0ea7a43"
-  integrity sha1-zfR14xtnhWUlFAbennWRlqDqekM=
 
 pako@~1.0.5:
   version "1.0.11"
