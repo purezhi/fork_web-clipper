@@ -413,7 +413,7 @@
     react-sticky-box "^0.9.3"
     resize-observer-polyfill "^1.5.1"
 
-"@formily/core@2.0.0-beta.47", "@formily/core@^2.0.0-beta.47":
+"@formily/core@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/core/download/@formily/core-2.0.0-beta.47.tgz#98a99f0be224448d88e58844d8b1edd58d410752"
   integrity sha1-mKmfC+IkRI2I5YhE2LHt1Y1BB1I=
@@ -421,6 +421,15 @@
     "@formily/reactive" "2.0.0-beta.47"
     "@formily/shared" "2.0.0-beta.47"
     "@formily/validator" "2.0.0-beta.47"
+
+"@formily/core@2.2.19", "@formily/core@^2.0.0-beta.47":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/core/-/core-2.2.19.tgz#5eccf1c843dbe261169e2688bf9f27fd27204f40"
+  integrity sha512-TjEEoRcqwOMIxkL1u7B0IVddpEeB8Uuzq21h6Rm3ZWXdUk/HSZmPVOy4AyE9KsNq5J6/II5zuzqGg5P2S1lVfw==
+  dependencies:
+    "@formily/reactive" "2.2.19"
+    "@formily/shared" "2.2.19"
+    "@formily/validator" "2.2.19"
 
 "@formily/json-schema@2.0.0-beta.47":
   version "2.0.0-beta.47"
@@ -431,12 +440,26 @@
     "@formily/reactive" "2.0.0-beta.47"
     "@formily/shared" "2.0.0-beta.47"
 
+"@formily/json-schema@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/json-schema/-/json-schema-2.2.19.tgz#879e760bf1d46d8c0f4aff90d8b3cefe206a6043"
+  integrity sha512-xLJut3NwPmSjrv8Qx72BcBmZSW+SVpHJFyNdQRwqiW8s58pwnfiyWtcOTVDlVCXaTmHKaqwgMKQqaF+gXh/Oyw==
+  dependencies:
+    "@formily/core" "2.2.19"
+    "@formily/reactive" "2.2.19"
+    "@formily/shared" "2.2.19"
+
 "@formily/path@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/path/download/@formily/path-2.0.0-beta.47.tgz#dd0d0cf7bcc0f6dee7fef5200c09740a3e1f48bd"
   integrity sha1-3Q0M97zA9t7n/vUgDAl0Cj4fSL0=
 
-"@formily/react@2.0.0-beta.47", "@formily/react@^2.0.0-beta.47":
+"@formily/path@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/path/-/path-2.2.19.tgz#9f04aee9a3b519bbbfcefeff9893e65ce9c5cb33"
+  integrity sha512-7qNfg2D3R4jkXsfnoFbWvRpsPPO8HcXtp/jqDfKHUlPQV4fHwVTWu2dIdh/TTzVqBRZacnmPTrfVXfBAQPqyVw==
+
+"@formily/react@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/react/download/@formily/react-2.0.0-beta.47.tgz#dfd48171c17313cda1b01d669a51996a56184a95"
   integrity sha1-39SBccFzE82hsB1mmlGZalYYSpU=
@@ -449,6 +472,19 @@
     "@formily/validator" "2.0.0-beta.47"
     hoist-non-react-statics "^3.3.2"
 
+"@formily/react@^2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/react/-/react-2.2.19.tgz#9d4f84fa41219a23e5ffacbec463e2e779b5f000"
+  integrity sha512-Gzp7rrbMvFKYgvBtz2pOazArcKkjorIBxUDujb7Lc8JVTj8VkTg2/jv1PEM4V0FtNoPA/+D4VdvemE78xWU2MQ==
+  dependencies:
+    "@formily/core" "2.2.19"
+    "@formily/json-schema" "2.2.19"
+    "@formily/reactive" "2.2.19"
+    "@formily/reactive-react" "2.2.19"
+    "@formily/shared" "2.2.19"
+    "@formily/validator" "2.2.19"
+    hoist-non-react-statics "^3.3.2"
+
 "@formily/reactive-react@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/reactive-react/download/@formily/reactive-react-2.0.0-beta.47.tgz#1149ac3a5a8c6d0887260a1364b4c7ec496c2019"
@@ -457,10 +493,23 @@
     "@formily/reactive" "2.0.0-beta.47"
     hoist-non-react-statics "^3.3.2"
 
+"@formily/reactive-react@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/reactive-react/-/reactive-react-2.2.19.tgz#f4ca63225ae4b772d9315ace9f178a93f148ba66"
+  integrity sha512-X0KJL+nhdcXB7/38OL85r7AWeh2S9i3rHxy+w96slSgB5eh6f5FC4Z3cDxE0cjQHUYBwY1vgN+DzT93+s9hhqA==
+  dependencies:
+    "@formily/reactive" "2.2.19"
+    hoist-non-react-statics "^3.3.2"
+
 "@formily/reactive@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/reactive/download/@formily/reactive-2.0.0-beta.47.tgz#d54ff3d69c8154e192e9e7f48116d396d19a708e"
   integrity sha1-1U/z1pyBVOGS6ef0gRbTltGacI4=
+
+"@formily/reactive@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/reactive/-/reactive-2.2.19.tgz#7460fa6766c9eb3022f380bea8cfc6ba240468cb"
+  integrity sha512-VcR5eH5kaA1huNygVUJP73036tNrsGkwlFhmt04Lge0+/seStTtJJ0rhu236LodAUV/bpEOYs9Dsuc8tXngkVw==
 
 "@formily/shared@2.0.0-beta.47":
   version "2.0.0-beta.47"
@@ -475,12 +524,32 @@
     pascal-case "^3.1.1"
     upper-case "^2.0.1"
 
+"@formily/shared@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/shared/-/shared-2.2.19.tgz#fe40a7a15537364be88c911d2bb7182a5daf110e"
+  integrity sha512-vCAHb3nTfFWXcvto/iXpmVtCVXgn/SwqC9i8dCzTn3DpNnAGh6Fz49RoRXGdAsf6ih9lS+no2yzNgYFVQoUhvg==
+  dependencies:
+    "@formily/path" "2.2.19"
+    camel-case "^4.1.1"
+    lower-case "^2.0.1"
+    no-case "^3.0.4"
+    param-case "^3.0.4"
+    pascal-case "^3.1.1"
+    upper-case "^2.0.1"
+
 "@formily/validator@2.0.0-beta.47":
   version "2.0.0-beta.47"
   resolved "https://registry.nlark.com/@formily/validator/download/@formily/validator-2.0.0-beta.47.tgz#061ef7fdd0cdd61ea76314eb7d387f2b8b5e5a78"
   integrity sha1-Bh73/dDN1h6nYxTrfTh/K4teWng=
   dependencies:
     "@formily/shared" "2.0.0-beta.47"
+
+"@formily/validator@2.2.19":
+  version "2.2.19"
+  resolved "https://registry.yarnpkg.com/@formily/validator/-/validator-2.2.19.tgz#97aa2310f3ab92aa15f8f82b68329f2329ef2676"
+  integrity sha512-3ufxFPPWi4d6w5PzG+owwBZ+zxsyo3TURkwlAZCUrSHR6cvqYhfT/ng/xSMxi9JvVEtfiKLMkfp+37StXG/7Nw==
+  dependencies:
+    "@formily/shared" "2.2.19"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
@@ -7404,11 +7473,6 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/p-try/download/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
-
-pako@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.npm.taobao.org/pako/download/pako-2.0.3.tgz?cache=0&sync_timestamp=1610208910632&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpako%2Fdownload%2Fpako-2.0.3.tgz#cdf475e31b678565251406de9e759196a0ea7a43"
-  integrity sha1-zfR14xtnhWUlFAbennWRlqDqekM=
 
 pako@~1.0.5:
   version "1.0.11"
